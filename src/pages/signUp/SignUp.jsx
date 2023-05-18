@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../assets/images/login/login.svg'
 import { useContext } from 'react';
@@ -30,11 +30,11 @@ const SignUp = () => {
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
-                <div className="w-1/2">
+                <div className="w-full lg:w-1/2">
 
                     <img src={img} alt="" />
                 </div>
-                <div className="card flex-shrink-0 w-1/2 max-w-sm shadow-2xl bg-base-100">
+                <div className="card flex-shrink-0 w-full lg:w-1/2 max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">
                         <h1 className="text-3xl font-bold">Register now!</h1>
                         <form onSubmit={handleSignUp}>
